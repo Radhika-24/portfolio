@@ -97,5 +97,5 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 This repo cntains my portfolio.
-Files in componenets directory are used for cretinf layouts or stylesheets.
+Files in components directory are used for creating layouts or stylesheets.
 files in pages directory are the different pages that can be accessed on website.
