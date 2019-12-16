@@ -1,20 +1,31 @@
 import React from "react"
-import { Link } from "gatsby"
 
+import backg from "../images/p1.jpg"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div style={{ marginTop:'-18px', marginLeft:'-289px', marginBottom:'-28px',
+    width:'1499px', height: '400px',
+    backgroundImage: "url(" + backg+")", backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    
+}}>
+      <h1 style={{color:'white',
+      paddingTop:'30px', paddingLeft:'20px',
+      font:'italic bold 60px/150px Georgia, serif'}}>
+        Welcome to my site!
+      </h1>
+      <h1 style={{color:'white',
+       paddingLeft:'20px',marginTop:'-30px',
+       font:'italic bold 20px/50px Georgia, serif'}}>
+        This site is my portfolio!<br/>
+        It contains information about my educational qualification, skills and projects.
+      </h1>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 

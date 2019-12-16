@@ -1,3 +1,6 @@
+/**
+CSS default file defininf properties.
+*/
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -12,12 +15,12 @@ article,
 aside,
 details,
 figcaption,
-figure,
-footer,
+figure, 
 header,
 main,
 menu,
 nav,
+footer
 section,
 summary {
   display: block;
@@ -27,6 +30,9 @@ canvas,
 progress,
 video {
   display: inline-block;
+}
+.my-social-icon .social-svg {
+  color: #BBC7CC;
 }
 audio:not([controls]) {
   display: none;
