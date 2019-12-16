@@ -1,3 +1,6 @@
+/**
+*This file contains the page for .educational qualifications. Uses layout for header footer.
+*/
 import React, { Children } from "react";
 //import {Link} from "gatsby";
 import Layout from "../components/layout";
